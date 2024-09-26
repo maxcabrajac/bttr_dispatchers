@@ -2,13 +2,13 @@
 
 A collection of useful dispatchers!
 
-Most if not all of Hyprland dispatchers are made with direct user interaction in mind, that is, they are thought to be used as keybindings.
+Most, if not all, of Hyprland dispatchers are made with direct user interaction in mind, that is, they are thought to be used as keybindings.
 Although Hyprland's Plugin API is very powerful, this way of designing dispatchers makes a very poor scripting interface.
-This plugin aims to add some scripting friendly dispatchers!
+This plugin aims to add some scripting-friendly dispatchers!
 
 # Installing
 
-- `hyprpm`
+## `hyprpm`
 
 ```sh
 hyprpm add github.com/maxcabrajac/bttr_dispatchers
@@ -16,7 +16,7 @@ hyprpm add github.com/maxcabrajac/bttr_dispatchers
 
 This will do everything that needs to be done!
 
-- Manually
+## Manually
 
 ```sh
 make setup
@@ -29,9 +29,9 @@ I guess these `make` targets are self-explanatory.
 
 # Available dispatchers
 
-| Dispatcher            | Argument(s)                   | Description                                                                |
-|-----------------------|-------------------------------|----------------------------------------------------------------------------|
-| bttr_workspacemonitor | <workspace id> <monitor id>   | Set a (possibly new) workspace as active on monitor without changing focus |
+- `bttr_workspacemonitor <workspace id> <monitor id>`
+
+    Set a (possibly new) workspace as active on monitor without changing focus
 
 # Inspired By
 
