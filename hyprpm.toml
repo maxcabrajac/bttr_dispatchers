@@ -1,0 +1,13 @@
+[repository]
+name = "bttr_dispatchers"
+authors = ["maxcabrajac"]
+commit_pins = [
+]
+
+[bttr_dispatchers]
+description = "A collection of useful dispatchers"
+output = "build/libbttr_dispatchers.so"
+build = [
+    "meson setup build --wipe",
+    "meson compile -C build",
+]
