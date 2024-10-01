@@ -40,7 +40,7 @@ APICALL EXPORT std::string PLUGIN_API_VERSION()
 }
 
 void addDispatcher(const std::string s, const std::function<void(std::string)> f) {
-	HyprlandAPI::addDispatcher(PHANDLE, std::format("bttr_{}", s), f);
+	HyprlandAPI::addDispatcher(PHANDLE, std::format("bttr:{}", s), f);
 }
 
 APICALL EXPORT PLUGIN_DESCRIPTION_INFO PLUGIN_INIT(HANDLE handle)
