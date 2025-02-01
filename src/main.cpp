@@ -47,7 +47,7 @@ DispatchRet setActiveWorkspaceOnMonitor(std::string arg_string) {
 	auto last = mHandle->activeWorkspaceID();
 
 	g_pCompositor->moveWorkspaceToMonitor(wsHandle, mHandle, true);
-	mHandle->changeWorkspace(wsHandle, false, true, true);
+	mHandle->changeWorkspace(wsHandle);
 
 	last_workspace.insert_or_assign(mId, last);
 
