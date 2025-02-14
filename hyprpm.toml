@@ -1,8 +1,6 @@
 [repository]
 name = "bttr_dispatchers"
 authors = ["maxcabrajac"]
-commit_pins = [
-]
 
 [bttr_dispatchers]
 description = "A collection of useful dispatchers"
