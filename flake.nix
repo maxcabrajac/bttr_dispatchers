@@ -25,8 +25,6 @@
 				buildInputs = with pkgs;
 					[
 						hyprland.packages.${system}.hyprland.dev
-						pixman
-						libdrm
 					]
 					++ hyprland.packages.${system}.hyprland.buildInputs;
 
